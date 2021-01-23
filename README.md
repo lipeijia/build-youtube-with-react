@@ -2,7 +2,7 @@
 
 1. Upon cloning this repo, add your node version in the "engines" section of the root package.json file.
 
-You can find out your node version by running the command `node -v` in your terminal.
+- You can find out your node version by running the command `node -v` in your terminal.
 
 2. Install dependencies for package.json files for server (in root of project) and for client (in "client" folder)
 
@@ -13,7 +13,7 @@ cd client && npm install
 
 3. Run dev script in project root to run both server and client scripts simultaneously.
 
-Note: Make sure you are not in the "client" folder
+- Note: Make sure you are not in the "client" folder
 
 ```bash
 npm run dev
