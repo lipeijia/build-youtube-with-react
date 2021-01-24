@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../styles/Trending";
 
-function TrendingPage() {
+function Trending() {
   return (
     <Wrapper>
       <h2>Trending</h2>
@@ -11,4 +11,4 @@ function TrendingPage() {
   );
 }
 
-export default TrendingPage;
+export default Trending;

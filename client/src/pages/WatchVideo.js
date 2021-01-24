@@ -7,7 +7,7 @@ import VideoPlayer from "../components/VideoPlayer";
 import Button from "../styles/Button";
 import Wrapper from "../styles/WatchVideo";
 
-function WatchVideoPage() {
+function WatchVideo() {
   const is404 = true;
 
   if (is404) {
@@ -79,4 +79,4 @@ function WatchVideoPage() {
   );
 }
 
-export default WatchVideoPage;
+export default WatchVideo;
