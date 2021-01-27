@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from "react";
-import CommentList from "../components/AddComment";
+import AddComment from "../components/AddComment";
 import { DislikeIcon, LikeIcon } from "../components/Icons";
 import NoResults from "../components/NoResults";
 import VideoPlayer from "../components/VideoPlayer";
@@ -68,7 +68,7 @@ function WatchVideo() {
           <p>Description</p>
         </div>
 
-        <CommentList />
+        <AddComment />
       </div>
 
       <div className="related-videos">

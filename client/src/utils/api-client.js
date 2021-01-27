@@ -10,9 +10,7 @@ export async function addComment() {}
 
 export async function addVideo() {}
 
-export async function subscribeUser() {}
-
-export async function unsubscribeUser() {}
+export async function toggleSubscribeUser() {}
 
 export async function likeVideo() {}
 
